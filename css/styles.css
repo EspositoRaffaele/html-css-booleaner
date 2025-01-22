@@ -1,0 +1,87 @@
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-size: 450px;
+}
+
+#spazio-titolo{
+    line-height: 80px;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    height: 40px;
+    background-image: url(../img/logo.svg);
+    margin-left: 10%;
+}
+
+#spazio-logo {
+    line-height: 30px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    margin-block-end: auto;
+    font-size: 36px;
+}
+
+.testo-grigio {
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+    line-height: 1;
+}
+
+span {
+    font-size: 11px;
+}
+
+#blu-chiaro {
+    color: rgb(89, 158, 223);
+    font-weight: 500;
+}
+
+#evidenziato {
+    background-color: rgb(255, 255, 0);
+    font-weight: unset;
+}
+
+table {
+    width: 100%; 
+}
+
+th{
+    width: 20px;
+    text-align: left;
+    background-color: rgb(101, 140, 197);
+    color: white;
+    font-size: 14px;
+}
+
+td{
+    font-size: 14px;    
+}
+
+tr:nth-child(odd){
+    background-color: rgb(190, 204, 228);
+}
+
+.banner-bottom{
+    background-color: rgb(24, 35, 134);
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 12px;
+}
