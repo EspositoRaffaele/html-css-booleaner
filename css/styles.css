@@ -49,6 +49,10 @@ span {
     font-weight: 500;
 }
 
+.testo-piccolo{
+    font-size: 12px;
+}
+
 #evidenziato {
     background-color: rgb(255, 255, 0);
     font-weight: unset;
