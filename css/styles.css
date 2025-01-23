@@ -81,7 +81,8 @@ tr:nth-child(odd){
     position: absolute;
     text-align: center;
     left: 0;
-    bottom: 0;
+    bottom: 1;
     color: white;
     font-size: 12px;
 }
+
